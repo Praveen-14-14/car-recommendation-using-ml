@@ -37,7 +37,7 @@
         margin-bottom: 8px;
         font-weight: bold;
     }
-    input[type="text"] {
+    select {
         width: calc(100% - 20px);
         padding: 10px;
         margin-bottom: 20px;
@@ -67,13 +67,31 @@
     <div class="container">
         <form action="/recommend" method="post">
             <label for="budget">What is your budget?</label>
-            <input type="text" id="budget" name="budget" placeholder="Enter your budget" required>
+            <select id="budget" name="budget" required>
+                <option value="1000000">10,00,000</option>
+                <option value="1500000">15,00,000</option>
+                <option value="2000000">20,00,000</option>
+                <option value="2500000">25,00,000</option>
+                <option value="3500000">35,00,000</option>
+                <option value="4000000">40,00,000</option>
+            </select>
             
             <label for="daily_commute">Daily commute in kilometers:</label>
-            <input type="text" id="daily_commute" name="daily_commute" placeholder="Enter daily commute" required>
+            <select id="daily_commute" name="daily_commute" required>
+                <option value="<15">&lt;15</option>
+                <option value=">15">&gt;15</option>
+                <option value="<20">&lt;20</option>
+                <option value=">20">&gt;20</option>
+                <option value="<30">&lt;30</option>
+                <option value=">30">&gt;30</option>
+            </select>
             
             <label for="road_condition">Road condition (highway/off-road/mixed):</label>
-            <input type="text" id="road_condition" name="road_condition" placeholder="Enter road condition" required>
+            <select id="road_condition" name="road_condition" required>
+                <option value="highway">Highway</option>
+                <option value="off-road">Off-road</option>
+                <option value="mixed">Mixed</option>
+            </select>
             
             <input type="submit" value="Submit">
         </form>
