@@ -1,0 +1,50 @@
+budget,dailycommute,roadcondition,recommendation
+100000,<30,highway,tata punch
+100000,>30,highway,tata punch
+100000,>30,highway,maruti swift
+100000,>30,highway,hyundai i10nios
+100000,>30,highway,hyundai aura 
+100000,<30,highway,baleno
+100000,<30,off road,tata punch
+100000,<30,mixed,altroz
+100000,>30,mixed,baleno
+1500000,<30,highway,hyundai venue
+1500000,<30,highway,Mahindra 3X0
+1500000,>30,mixed,Tata nexon
+1500000,>30,off road,Mahindra 3X0
+1500000,>30,off road,Kia Sonet
+1500000,<30,highway,Kia Sonet
+1500000,>30,highway,Hyundai venue
+1500000,<30,off road,Kia Sonet
+1500000,<30,mixed,Hyundai venue
+2000000,<30,highway,vw virtus
+2000000,<30,highway,skoda slavia
+2000000,<30,highway,honda city
+2000000,<30,mixed,kia seltos
+2000000,>30,mixed,hyundai creta
+2000000,>30,off road, hyundai creta
+2000000,<30,off road,kia seltos
+2000000,<30,mixed,skoda kushaq
+2000000,<30,mixed,vw taigun
+1500000,<15,highway,nexon ev
+1500000,<15,mixed,nexon ev
+1500000,<15,highway,tigor ev
+2500000,<30,mixed,toyota innova
+2500000,<30,off road,xuv700
+2500000,<30,highway,innova
+2500000,>30,highway,maruti invictus
+2500000,>30,highway,toyota hycross
+3500000,<30,highway,vw troc
+3500000,<30,highway,tiguan
+3500000,<30,mixed, vw t roc
+3500000,<30,off road,skoda kodiaq
+4000000,<30,off road,toyota fortuner
+4000000,<30,highway,toyota fortuner
+4000000,<30,mixed,toyota fortuner
+4000000,<30,highway,kia carnival
+4000000,<30,highway,MG Gloster
+4000000,>20,highway,kia ev6 link 
+4000000,>20,highway,hyundai ioniq 5
+2500000,>30,highway,mg hector
+1500000,>30,highway,mg astor
+1500000,>30,highway,mg zs ev
